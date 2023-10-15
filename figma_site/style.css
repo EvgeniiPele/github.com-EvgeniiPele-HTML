@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    padding-bottom: 177px;
+}
+
+.text__grow {
+    margin-top: 45px;
+    margin-bottom: 625px;
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.text__be {
+    margin-top: 45px;
+    margin-bottom: 625px;
+    color: #F25822;
+    font-size: 24px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.menu__home {
+    margin-top: 51px;
+    margin-bottom: 632px;
+    color: #F25822;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.menu__other {
+    margin-top: 51px;
+    margin-bottom: 632px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.title {
+    margin-top: 89px;
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    padding-top: 17px;
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.start__button {
+    margin-top: 37px;
+}
+
+.watch_button {
+    margin-top: 52px;
+}
