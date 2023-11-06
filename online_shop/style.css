@@ -46,20 +46,17 @@ img {
 .top_content {
     display: flex;
     background: #F1E4E6;
-    align-items: flex-end;
+    align-items: center;
     justify-content: flex-start;
 }
 
 .img_top_content {
-    width: 50%;
+    min-width: 48%;
 }
 
 .top_text {
     border-left: 12px solid #F16D7F;
-    padding-left: 16px;
-    margin-bottom: 381px;
-    margin-top: 290px;
-    margin-left: 41.92px;
+    min-width: 48%;
 }
 
 .txt_up {
@@ -214,8 +211,17 @@ img {
     align-items: center;
     padding-bottom: 60px;
 }
-.clothes_text{
+
+.clothes_text {
     margin-top: 24px;
     margin-bottom: 24px;
     margin-left: 16px;
+}
+
+@media (max-width: 768px) {
+    .img_content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 360px);
+        justify-content: center;
+    }
 }
