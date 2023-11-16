@@ -224,4 +224,13 @@ img {
         grid-template-columns: repeat(auto-fit, 360px);
         justify-content: center;
     }
+
+}
+
+@media (max-width: 320px) {
+    .body {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
