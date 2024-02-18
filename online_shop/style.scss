@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+$colorSelectSite: #F16D7F;
 
 a {
     text-decoration: none;
@@ -55,7 +56,7 @@ img {
 }
 
 .top_text {
-    border-left: 12px solid #F16D7F;
+    border-left: 12px solid $colorSelectSite;
     min-width: 48%;
 }
 
@@ -80,7 +81,7 @@ img {
 }
 
 .colortext {
-    color: #F16D7F;
+    color: $colorSelectSite;
 }
 
 
@@ -129,7 +130,7 @@ img {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-    color: #F16D7F;
+    color: $colorSelectSite;
 }
 
 .footer_content {
@@ -177,7 +178,7 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #F16D7F;
+    color: $colorSelectSite;
     margin-top: 18px;
 }
 
@@ -199,7 +200,7 @@ img {
 }
 
 .all_product {
-    color: #F26376;
+    color: $colorSelectSite;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
